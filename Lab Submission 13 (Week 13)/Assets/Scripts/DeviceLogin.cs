@@ -1,18 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using PlayFab.ClientModels;
+using PlayFab;
 
-public class DeviceLogin : MonoBehaviour
+public class DeviceLogin : ILogin
 {
-    // Start is called before the first frame update
-    void Start()
+    private string deviceId;
+
+    public DeviceLogin(string deviceId)
     {
-        
+        this.deviceId = deviceId;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Login(System.Action<LoginResult> onSuccess, System.Action<PlayFabError> onFailure)
     {
-        
+        var request = new LoginWithCustomIDRequest
+        {
+            CustomId = deviceId,
+            CreateAccount = true
+        };
+        PlayFabClientAPI.LoginWithCustomID(request, onSuccess, onFailure);
     }
 }

@@ -62,14 +62,19 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Corutine.cs" />
     <Compile Include="Assets\Scripts\DeviceLogin.cs" />
+    <Compile Include="Assets\Scripts\LoginManager.cs" />
     <Compile Include="Assets\Scripts\WeatherManager.cs" />
     <Compile Include="Assets\Scripts\ILogin.cs" />
     <Compile Include="Assets\Scripts\SceneWeatherManager.cs" />
+    <Compile Include="Assets\Scripts\PlayFabManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\UnitySDK-2.225.251107\ExampleTestProject\Assets\Resources\testTitleDataPlaceholder.txt" />
+    <None Include="Assets\UnitySDK-2.225.251107\licenses\SignalR-license.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\UnitySDK-2.225.251107\licenses\SimpleJson-license.txt" />
     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
@@ -82,9 +87,13 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\UnitySDK-2.225.251107\licenses\ionic.zlib-license.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\UnitySDK-2.225.251107\licenses\Newtonsoft.Json-license.txt" />
+    <None Include="Assets\UnitySDK-2.225.251107\licenses\uunit-license.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\UnitySDK-2.225.251107\licenses\tpl-license.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
@@ -1038,6 +1047,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="PlayFabEditorExtensions.csproj">
+      <Project>{83319E61-4972-1EC0-57A6-276986753C66}</Project>
+      <Name>PlayFabEditorExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFab.csproj">
+      <Project>{70CAD4EA-7608-B50A-2AE9-769E79878BDB}</Project>
+      <Name>PlayFab</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFabTestingEditor.csproj">
+      <Project>{508B72E2-43EA-45DD-EA51-E182D2878656}</Project>
+      <Name>PlayFabTestingEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFabTesting.csproj">
+      <Project>{D0F3E303-3A63-F96B-BCFF-A147764D40C9}</Project>
+      <Name>PlayFabTesting</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFabSDKEditor.csproj">
+      <Project>{31D88D2D-7FB4-9E85-8EDA-88CC98397EE7}</Project>
+      <Name>PlayFabSDKEditor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

@@ -81,13 +81,13 @@
     <Compile Include="Assets\UnitySDK-2.225.251107\ExampleTestProject\Assets\PlayFabEditorExtensions\Editor\Scripts\Panels\PlayFabEditorSDKTools.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\UnitySDK-2.225.251107\ExampleTestProject\Assets\PlayFabEditorExtensions\Editor\Resources\System.IdentityModel.Tokens.Jwt.dll" />
-    <None Include="Assets\UnitySDK-2.225.251107\ExampleTestProject\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.IdentityModel.Logging.dll" />
     <None Include="Assets\UnitySDK-2.225.251107\ExampleTestProject\Assets\PlayFabEditorExtensions\Editor\PlayFabEditorExtensions.asmdef" />
+    <None Include="Assets\UnitySDK-2.225.251107\ExampleTestProject\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.IdentityModel.Clients.ActiveDirectory.dll" />
     <None Include="Assets\UnitySDK-2.225.251107\ExampleTestProject\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.IdentityModel.JsonWebTokens.dll" />
     <None Include="Assets\UnitySDK-2.225.251107\ExampleTestProject\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.IdentityModel.Tokens.dll" />
-    <None Include="Assets\UnitySDK-2.225.251107\ExampleTestProject\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.IdentityModel.Clients.ActiveDirectory.dll" />
     <None Include="Assets\UnitySDK-2.225.251107\ExampleTestProject\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.Identity.Client.dll" />
+    <None Include="Assets\UnitySDK-2.225.251107\ExampleTestProject\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.IdentityModel.Logging.dll" />
+    <None Include="Assets\UnitySDK-2.225.251107\ExampleTestProject\Assets\PlayFabEditorExtensions\Editor\Resources\System.IdentityModel.Tokens.Jwt.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -478,28 +478,28 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Microsoft.IdentityModel.JsonWebTokens">
-      <HintPath>Assets\UnitySDK-2.225.251107\ExampleTestProject\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.IdentityModel.JsonWebTokens.dll</HintPath>
+    <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory">
+      <HintPath>Assets\UnitySDK-2.225.251107\ExampleTestProject\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.IdentityModel.Clients.ActiveDirectory.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IdentityModel.Tokens.Jwt">
-      <HintPath>Assets\UnitySDK-2.225.251107\ExampleMacProject\Assets\PlayFabEditorExtensions\Editor\Resources\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+      <HintPath>Assets\UnitySDK-2.225.251107\ExampleTestProject\Assets\PlayFabEditorExtensions\Editor\Resources\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.JsonWebTokens">
+      <HintPath>Assets\UnitySDK-2.225.251107\ExampleTestProject\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.IdentityModel.JsonWebTokens.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.Identity.Client">
       <HintPath>Assets\UnitySDK-2.225.251107\ExampleTestProject\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.Identity.Client.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens">
+      <HintPath>Assets\UnitySDK-2.225.251107\ExampleTestProject\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.IdentityModel.Tokens.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Microsoft.IdentityModel.Logging">
       <HintPath>Assets\UnitySDK-2.225.251107\ExampleTestProject\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.IdentityModel.Logging.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Microsoft.IdentityModel.Tokens">
-      <HintPath>Assets\UnitySDK-2.225.251107\ExampleMacProject\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.IdentityModel.Tokens.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory">
-      <HintPath>Assets\UnitySDK-2.225.251107\ExampleMacProject\Assets\PlayFabEditorExtensions\Editor\Resources\Microsoft.IdentityModel.Clients.ActiveDirectory.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">

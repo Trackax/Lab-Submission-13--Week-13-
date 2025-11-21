@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-13--Week-13-\\Lab Submission 13 (Week 13)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA921E5E-015C-56EA-DBE9-7AB5643ADDF8}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\lab-submission-13--week-13-\\lab submission 13 (week 13)\\assets\\scripts\\ilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA921E5E-015C-56EA-DBE9-7AB5643ADDF8}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\Lab-Submission-13--Week-13-\\Lab Submission 13 (Week 13)\\assets\\scripts\\ilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA921E5E-015C-56EA-DBE9-7AB5643ADDF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA921E5E-015C-56EA-DBE9-7AB5643ADDF8}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\lab-submission-13--week-13-\\lab submission 13 (week 13)\\assets\\scripts\\devicelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA921E5E-015C-56EA-DBE9-7AB5643ADDF8}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\lab-submission-13--week-13-\\lab submission 13 (week 13)\\assets\\scripts\\playfabmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA921E5E-015C-56EA-DBE9-7AB5643ADDF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playfabmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA921E5E-015C-56EA-DBE9-7AB5643ADDF8}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\Lab-Submission-13--Week-13-\\Lab Submission 13 (Week 13)\\assets\\scripts\\loginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA921E5E-015C-56EA-DBE9-7AB5643ADDF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA921E5E-015C-56EA-DBE9-7AB5643ADDF8}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\Lab-Submission-13--Week-13-\\Lab Submission 13 (Week 13)\\assets\\scripts\\devicelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA921E5E-015C-56EA-DBE9-7AB5643ADDF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\devicelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,11 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PlayFabManager.cs",
+              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-13--Week-13-\\Lab Submission 13 (Week 13)\\Assets\\Scripts\\PlayFabManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayFabManager.cs",
+              "ToolTip": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-13--Week-13-\\Lab Submission 13 (Week 13)\\Assets\\Scripts\\PlayFabManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayFabManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T23:36:25.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginManager.cs",
+              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-13--Week-13-\\Lab Submission 13 (Week 13)\\Assets\\Scripts\\LoginManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LoginManager.cs",
+              "ToolTip": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-13--Week-13-\\Lab Submission 13 (Week 13)\\Assets\\Scripts\\LoginManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LoginManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T23:32:56.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DeviceLogin.cs",
               "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-13--Week-13-\\Lab Submission 13 (Week 13)\\Assets\\Scripts\\DeviceLogin.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DeviceLogin.cs",
@@ -30,8 +64,7 @@
               "RelativeToolTip": "Assets\\Scripts\\DeviceLogin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T23:20:11.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T23:20:11.741Z"
             },
             {
               "$type": "Document",
@@ -41,7 +74,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\ILogin.cs",
               "ToolTip": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-13--Week-13-\\Lab Submission 13 (Week 13)\\Assets\\Scripts\\ILogin.cs",
               "RelativeToolTip": "Assets\\Scripts\\ILogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T23:20:10.565Z",
               "EditorCaption": ""
