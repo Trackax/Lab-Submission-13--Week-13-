@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-13--Week-13-\\Lab Submission 13 (Week 13)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA921E5E-015C-56EA-DBE9-7AB5643ADDF8}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\Lab-Submission-13--Week-13-\\Lab Submission 13 (Week 13)\\assets\\scripts\\weathermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA921E5E-015C-56EA-DBE9-7AB5643ADDF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weathermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA921E5E-015C-56EA-DBE9-7AB5643ADDF8}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\lab-submission-13--week-13-\\lab submission 13 (week 13)\\assets\\scripts\\ilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA921E5E-015C-56EA-DBE9-7AB5643ADDF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA921E5E-015C-56EA-DBE9-7AB5643ADDF8}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\lab-submission-13--week-13-\\lab submission 13 (week 13)\\assets\\scripts\\sceneweathermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA921E5E-015C-56EA-DBE9-7AB5643ADDF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sceneweathermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA921E5E-015C-56EA-DBE9-7AB5643ADDF8}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\lab-submission-13--week-13-\\lab submission 13 (week 13)\\assets\\scripts\\devicelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA921E5E-015C-56EA-DBE9-7AB5643ADDF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\devicelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SceneWeatherManager.cs",
-              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-13--Week-13-\\Lab Submission 13 (Week 13)\\Assets\\Scripts\\SceneWeatherManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneWeatherManager.cs",
-              "ToolTip": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-13--Week-13-\\Lab Submission 13 (Week 13)\\Assets\\Scripts\\SceneWeatherManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SceneWeatherManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABGAAAAAAAAAA==",
+              "Title": "DeviceLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-13--Week-13-\\Lab Submission 13 (Week 13)\\Assets\\Scripts\\DeviceLogin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DeviceLogin.cs",
+              "ToolTip": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-13--Week-13-\\Lab Submission 13 (Week 13)\\Assets\\Scripts\\DeviceLogin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DeviceLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T03:51:44.951Z",
+              "WhenOpened": "2025-11-21T23:20:11.741Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WeatherManager.cs",
-              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-13--Week-13-\\Lab Submission 13 (Week 13)\\Assets\\Scripts\\WeatherManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\WeatherManager.cs",
-              "ToolTip": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-13--Week-13-\\Lab Submission 13 (Week 13)\\Assets\\Scripts\\WeatherManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\WeatherManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABeAAAAAAAAAA==",
+              "Title": "ILogin.cs",
+              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-13--Week-13-\\Lab Submission 13 (Week 13)\\Assets\\Scripts\\ILogin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ILogin.cs",
+              "ToolTip": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-13--Week-13-\\Lab Submission 13 (Week 13)\\Assets\\Scripts\\ILogin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ILogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T03:29:18.315Z",
+              "WhenOpened": "2025-11-21T23:20:10.565Z",
               "EditorCaption": ""
             }
           ]

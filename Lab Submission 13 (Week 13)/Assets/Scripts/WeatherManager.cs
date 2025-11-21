@@ -4,12 +4,13 @@ using System.Collections;
 using System;
 using System.Xml.Linq;
 using System.Linq;
+using Unity.VisualScripting;
 
 public class WeatherManager
 {
-    private const string BaseApiUrl = "http://api.openweathermap.org/data/2.5/weather?mode=xml";
+    private const string BaseApiUrl = "https://api.openweathermap.org/data/2.5/weather?mode=xml";
     private string apiKey = "014e430148b0a0cccd26324159160984";
-    private string city = "Orlando,us";
+    private string city = "New Orleans";
 
     public void SetCity(string newCity)
     {
